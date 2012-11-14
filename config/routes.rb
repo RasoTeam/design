@@ -17,6 +17,8 @@ Homepage::Application.routes.draw do
   resources :contacts
   resources :ideas
 
+  match '/signup/' => 'staticpages#signup'
+
   # Sample resource route with options:
   #   resources :products do
   #     member do
