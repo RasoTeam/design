@@ -1,0 +1,784 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-14 15:01:39 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (105.0ms)
+Compiled idea.css  (7ms)  (pid 7864)
+Compiled application.css  (90ms)  (pid 7864)
+Compiled idea.js  (2256ms)  (pid 7864)
+Compiled application.js  (2306ms)  (pid 7864)
+Completed 200 OK in 3266ms (Views: 3265.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/idea.css?body=1" for 127.0.0.1 at 2012-11-14 15:01:46 +0000
+Served asset /idea.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:46 +0000
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:46 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/foundation/jquery.placeholder.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:46 +0000
+Served asset /foundation/jquery.placeholder.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/foundation/modernizr.foundation.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/modernizr.foundation.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.alerts.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.alerts.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.accordion.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.accordion.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.buttons.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.buttons.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.tooltips.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.tooltips.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.forms.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.forms.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.navigation.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.navigation.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.tabs.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.tabs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.topbar.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.topbar.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.reveal.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.reveal.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.orbit.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.orbit.js - 304 Not Modified (40ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.joyride.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.joyride.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.magellan.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.magellan.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.clearing.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.clearing.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.mediaQueryToggle.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/jquery.foundation.mediaQueryToggle.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/foundation/app.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/app.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:47 +0000
+Served asset /foundation/index.js - 304 Not Modified (103ms)
+
+
+Started GET "/assets/aboutus.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:48 +0000
+Served asset /aboutus.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:48 +0000
+Served asset /contacts.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:48 +0000
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/idea.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:48 +0000
+Served asset /idea.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-14 15:01:48 +0000
+Served asset /application.js - 304 Not Modified (96ms)
+
+
+Started GET "/public/assets/templates.js" for 127.0.0.1 at 2012-11-14 15:01:48 +0000
+
+ActionController::RoutingError (No route matches [GET] "/public/assets/templates.js"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/slide/1.jpg" for 127.0.0.1 at 2012-11-14 15:01:48 +0000
+Served asset /slide/1.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/slide/2.jpg" for 127.0.0.1 at 2012-11-14 15:01:48 +0000
+Served asset /slide/2.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/slide/3.jpg" for 127.0.0.1 at 2012-11-14 15:01:48 +0000
+Served asset /slide/3.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-14 15:04:06 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled ideas.css  (10ms)  (pid 7864)
+Compiled application.css  (37ms)  (pid 7864)
+Compiled ideas.js  (887ms)  (pid 7864)
+Compiled application.js  (939ms)  (pid 7864)
+Completed 200 OK in 1286ms (Views: 1286.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/aboutus.css?body=1" for 127.0.0.1 at 2012-11-14 15:04:07 +0000
+Served asset /aboutus.css - 200 OK (6ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2012-11-14 15:04:07 +0000
+Served asset /foundation_and_overrides.css - 200 OK (5ms)
+
+
+Started GET "/assets/contacts.css?body=1" for 127.0.0.1 at 2012-11-14 15:04:07 +0000
+Served asset /contacts.css - 200 OK (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-14 15:04:07 +0000
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-11-14 15:04:07 +0000
+Served asset /home.css - 200 OK (32ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /ideas.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/foundation/modernizr.foundation.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/modernizr.foundation.js - 200 OK (1ms)
+
+
+Started GET "/assets/foundation/jquery.placeholder.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.placeholder.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.alerts.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.alerts.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.accordion.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.accordion.js - 200 OK (15ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.buttons.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.buttons.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.tabs.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.tabs.js - 200 OK (1ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.forms.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.forms.js - 200 OK (1ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.tooltips.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.tooltips.js - 200 OK (1ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.navigation.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.navigation.js - 200 OK (1ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.topbar.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.topbar.js - 200 OK (3ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.reveal.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.reveal.js - 200 OK (2ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.orbit.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.orbit.js - 200 OK (2ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.magellan.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.magellan.js - 200 OK (1ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.joyride.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.joyride.js - 200 OK (1ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.clearing.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.clearing.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/jquery.foundation.mediaQueryToggle.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/jquery.foundation.mediaQueryToggle.js - 200 OK (7ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/index.js - 200 OK (49ms)
+
+
+Started GET "/assets/foundation/app.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /foundation/app.js - 200 OK (0ms)
+
+
+Started GET "/assets/aboutus.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /aboutus.js - 200 OK (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /contacts.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/ideas.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /ideas.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+Served asset /application.js - 200 OK (106ms)
+
+
+Started GET "/public/assets/templates.js" for 127.0.0.1 at 2012-11-14 15:04:08 +0000
+
+ActionController::RoutingError (No route matches [GET] "/public/assets/templates.js"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/assets/slide/3.jpg" for 127.0.0.1 at 2012-11-14 15:04:09 +0000
+Served asset /slide/3.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/slide/2.jpg" for 127.0.0.1 at 2012-11-14 15:04:09 +0000
+Served asset /slide/2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/slide/1.jpg" for 127.0.0.1 at 2012-11-14 15:04:09 +0000
+Served asset /slide/1.jpg - 200 OK (1ms)
+
+
+Started GET "/images/bgimg.jpg" for 127.0.0.1 at 2012-11-14 15:04:09 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/bgimg.jpg"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-11-14 15:04:09 +0000
+Served asset /logo.png - 200 OK (9ms)
+
+
+Started GET "/assets/back.png" for 127.0.0.1 at 2012-11-14 15:04:09 +0000
+Served asset /back.png - 200 OK (4ms)
+
+
+Started GET "/assets/social/48x48/facebook_raso.png" for 127.0.0.1 at 2012-11-14 15:04:09 +0000
+Served asset /social/48x48/facebook_raso.png - 200 OK (5ms)
+
+
+Started GET "/assets/social/48x48/twitter_raso.png" for 127.0.0.1 at 2012-11-14 15:04:09 +0000
+Served asset /social/48x48/twitter_raso.png - 200 OK (4ms)
+
+
+Started GET "/assets/social/48x48/youtube_raso.png" for 127.0.0.1 at 2012-11-14 15:04:09 +0000
+Served asset /social/48x48/youtube_raso.png - 200 OK (39ms)
+
+
+Started GET "/ideas" for 127.0.0.1 at 2012-11-14 15:04:10 +0000
+Processing by IdeasController#index as HTML
+  Rendered ideas/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 15:04:10 +0000
+Served asset /ideas.css - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-14 15:04:27 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 15:04:28 +0000
+Served asset /ideas.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/foundation/orbit/rotator-black.png" for 127.0.0.1 at 2012-11-14 15:04:29 +0000
+Served asset /foundation/orbit/rotator-black.png - 304 Not Modified (21ms)
+
+
+Started GET "/assets/foundation/orbit/right-arrow.png" for 127.0.0.1 at 2012-11-14 15:04:29 +0000
+Served asset /foundation/orbit/right-arrow.png - 304 Not Modified (10ms)
+
+
+Started GET "/assets/foundation/orbit/pause-black.png" for 127.0.0.1 at 2012-11-14 15:04:29 +0000
+Served asset /foundation/orbit/pause-black.png - 304 Not Modified (21ms)
+
+
+Started GET "/assets/foundation/orbit/left-arrow.png" for 127.0.0.1 at 2012-11-14 15:04:29 +0000
+Served asset /foundation/orbit/left-arrow.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/foundation/orbit/timer-black.png" for 127.0.0.1 at 2012-11-14 15:06:01 +0000
+Served asset /foundation/orbit/timer-black.png - 304 Not Modified (8ms)
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2012-11-14 15:12:21 +0000
+Processing by AboutusController#index as HTML
+  Rendered aboutus/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 15:12:21 +0000
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 15:12:21 +0000
+Served asset /ideas.css - 304 Not Modified (0ms)
+
+
+Started GET "/images/bgimg.jpg" for 127.0.0.1 at 2012-11-14 15:12:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/bgimg.jpg"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/team/team_pedro.jpg" for 127.0.0.1 at 2012-11-14 15:12:22 +0000
+Served asset /team/team_pedro.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/team/team_andre.jpg" for 127.0.0.1 at 2012-11-14 15:12:22 +0000
+Served asset /team/team_andre.jpg - 304 Not Modified (11ms)
+
+
+Started GET "/assets/team/team_diogo.jpg" for 127.0.0.1 at 2012-11-14 15:12:22 +0000
+Served asset /team/team_diogo.jpg - 304 Not Modified (7ms)
+
+
+Started GET "/assets/team/team_hugo.jpg" for 127.0.0.1 at 2012-11-14 15:12:22 +0000
+Served asset /team/team_hugo.jpg - 304 Not Modified (7ms)
+
+
+Started GET "/assets/team/team_nuno.jpg" for 127.0.0.1 at 2012-11-14 15:12:22 +0000
+Served asset /team/team_nuno.jpg - 304 Not Modified (11ms)
+
+
+Started GET "/assets/team/team_dany.jpg" for 127.0.0.1 at 2012-11-14 15:12:22 +0000
+Served asset /team/team_dany.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/team/team_joao.jpg" for 127.0.0.1 at 2012-11-14 15:12:22 +0000
+Served asset /team/team_joao.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/team/team_carlos.jpg" for 127.0.0.1 at 2012-11-14 15:12:22 +0000
+Served asset /team/team_carlos.jpg - 304 Not Modified (34ms)
+
+
+Started GET "/assets/team/team_claudio.jpg" for 127.0.0.1 at 2012-11-14 15:12:22 +0000
+Served asset /team/team_claudio.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/team/team_filipe.jpg" for 127.0.0.1 at 2012-11-14 15:12:22 +0000
+Served asset /team/team_filipe.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/team/team_cunha.jpg" for 127.0.0.1 at 2012-11-14 15:12:23 +0000
+Served asset /team/team_cunha.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/team/team_vitor.jpg" for 127.0.0.1 at 2012-11-14 15:12:23 +0000
+Served asset /team/team_vitor.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/team/team_tiago.jpg" for 127.0.0.1 at 2012-11-14 15:12:23 +0000
+Served asset /team/team_tiago.jpg - 304 Not Modified (7ms)
+
+
+Started GET "/assets/team/team_samuel.jpg" for 127.0.0.1 at 2012-11-14 15:12:23 +0000
+Served asset /team/team_samuel.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/team/team_felix.jpg" for 127.0.0.1 at 2012-11-14 15:12:23 +0000
+Served asset /team/team_felix.jpg - 304 Not Modified (18ms)
+
+
+Started GET "/assets/team/team_andreia.jpg" for 127.0.0.1 at 2012-11-14 15:12:23 +0000
+Served asset /team/team_andreia.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/team/team_paulo.jpg" for 127.0.0.1 at 2012-11-14 15:12:23 +0000
+Served asset /team/team_paulo.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/ideas" for 127.0.0.1 at 2012-11-14 15:12:24 +0000
+Processing by IdeasController#index as HTML
+  Rendered ideas/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 15:12:24 +0000
+Served asset /ideas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 15:12:24 +0000
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-14 15:17:59 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 15:17:59 +0000
+Served asset /ideas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 15:17:59 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/images/bgimg.jpg" for 127.0.0.1 at 2012-11-14 15:17:59 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/bgimg.jpg"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/foundation/orbit/rotator-black.png" for 127.0.0.1 at 2012-11-14 15:17:59 +0000
+Served asset /foundation/orbit/rotator-black.png - 304 Not Modified (42ms)
+
+
+Started GET "/assets/foundation/orbit/right-arrow.png" for 127.0.0.1 at 2012-11-14 15:18:00 +0000
+Served asset /foundation/orbit/right-arrow.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/foundation/orbit/left-arrow.png" for 127.0.0.1 at 2012-11-14 15:18:00 +0000
+Served asset /foundation/orbit/left-arrow.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/foundation/orbit/pause-black.png" for 127.0.0.1 at 2012-11-14 15:18:00 +0000
+Served asset /foundation/orbit/pause-black.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/orbit/timer-black.png" for 127.0.0.1 at 2012-11-14 15:18:02 +0000
+Served asset /foundation/orbit/timer-black.png - 304 Not Modified (0ms)
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2012-11-14 15:18:07 +0000
+Processing by AboutusController#index as HTML
+  Rendered aboutus/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 48ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 15:18:07 +0000
+Served asset /ideas.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 15:18:07 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/team/team_pedro.jpg" for 127.0.0.1 at 2012-11-14 15:18:07 +0000
+Served asset /team/team_pedro.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_hugo.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_hugo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_dany.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_dany.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_andre.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_andre.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_diogo.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_diogo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_nuno.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_nuno.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_joao.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_joao.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_carlos.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_carlos.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_claudio.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_claudio.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_filipe.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_filipe.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_cunha.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_cunha.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_vitor.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_vitor.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/team/team_tiago.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_tiago.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/team/team_samuel.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_samuel.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/team/team_felix.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_felix.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_andreia.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_andreia.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team/team_paulo.jpg" for 127.0.0.1 at 2012-11-14 15:18:08 +0000
+Served asset /team/team_paulo.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/ideas" for 127.0.0.1 at 2012-11-14 15:29:35 +0000
+Processing by IdeasController#index as HTML
+  Rendered ideas/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 15:29:35 +0000
+Served asset /ideas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 15:29:36 +0000
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/ideas" for 127.0.0.1 at 2012-11-14 15:46:36 +0000
+Processing by IdeasController#index as HTML
+  Rendered ideas/index.html.erb within layouts/application (3.0ms)
+Compiled staticpages.css  (22ms)  (pid 7864)
+Compiled application.css  (100ms)  (pid 7864)
+Compiled staticpages.js  (755ms)  (pid 7864)
+Compiled application.js  (806ms)  (pid 7864)
+Completed 200 OK in 1257ms (Views: 1257.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 15:46:37 +0000
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/staticpages.css?body=1" for 127.0.0.1 at 2012-11-14 15:46:37 +0000
+Served asset /staticpages.css - 200 OK (3ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 15:46:37 +0000
+Served asset /ideas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/staticpages.js?body=1" for 127.0.0.1 at 2012-11-14 15:46:37 +0000
+Served asset /staticpages.js - 200 OK (5ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-11-14 15:46:39 +0000
+Processing by StaticpagesController#signup as HTML
+  Rendered staticpages/signup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 15:46:39 +0000
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/staticpages.js?body=1" for 127.0.0.1 at 2012-11-14 15:46:39 +0000
+Served asset /staticpages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 15:46:39 +0000
+Served asset /ideas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/staticpages.css?body=1" for 127.0.0.1 at 2012-11-14 15:46:39 +0000
+Served asset /staticpages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/social/48x48/youtube.png" for 127.0.0.1 at 2012-11-14 15:52:22 +0000
+Served asset /social/48x48/youtube.png - 304 Not Modified (9ms)
+
+
+Started GET "/ideas" for 127.0.0.1 at 2012-11-14 15:52:25 +0000
+Processing by IdeasController#index as HTML
+  Rendered ideas/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 15:52:26 +0000
+Served asset /ideas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/staticpages.css?body=1" for 127.0.0.1 at 2012-11-14 15:52:26 +0000
+Served asset /staticpages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/staticpages.js?body=1" for 127.0.0.1 at 2012-11-14 15:52:26 +0000
+Served asset /staticpages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 15:52:26 +0000
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-14 16:00:27 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2012-11-14 16:00:27 +0000
+Served asset /ideas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/staticpages.css?body=1" for 127.0.0.1 at 2012-11-14 16:00:27 +0000
+Served asset /staticpages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-14 16:00:27 +0000
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/staticpages.js?body=1" for 127.0.0.1 at 2012-11-14 16:00:28 +0000
+Served asset /staticpages.js - 304 Not Modified (0ms)
