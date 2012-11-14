@@ -13,6 +13,7 @@ Homepage::Application.routes.draw do
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   resources :aboutus
   resources :contacts
+  resources :idea
 
   # Sample resource route with options:
   #   resources :products do
