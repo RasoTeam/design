@@ -1,9 +1,11 @@
-Homepage::Application.routes.draw do
+Backoffice::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
+  match '/companies' => 'staticpages#index_company'
+  match '/companies/1' => 'staticpages#show'
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
@@ -11,16 +13,7 @@ Homepage::Application.routes.draw do
   # This route can be invoked with purchase_url(:id => product.id)
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
-
-
-  resources :aboutus
-  resources :contacts
-  resources :ideas
-
-  match '/signup/' => 'staticpages#signup'
-  match '/signup2/' => 'staticpages#signup_admin'
-  match '/signin/' => 'staticpages#signin'
-
+  #   resources :products
 
   # Sample resource route with options:
   #   resources :products do
@@ -57,7 +50,8 @@ Homepage::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'home#index'
+  # root :to => 'welcome#index'
+  root :to => 'staticpages#index_company'
 
   # See how all your routes lay out with "rake routes"
 
