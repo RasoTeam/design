@@ -2,14 +2,26 @@
 
 <div class="row">
 
+	<ul class="breadcrumbs">
+	  <li><a href="#">Home</a></li>
+	  <li class="current"><a href="#">Companies</a></li>
+	</ul>
+
 	<h2>Companies</h2>
+	
+	<dl class="sub-nav">
+  		<dt>Filter:</dt>
+  		<dd class="active"><a href="#">All</a></dd>
+  		<dd><a href="#">Ok</a></dd>
+  		<dd><a href="#">Delayed</a></dd>
+	</dl>
 		<table class="twelve">
 		  <thead>
 		    <tr>
 		      <th>Name</th>
 		      <th>SLUG</th>
 		      <th>NIF</th>
-		      <th>Estado</th>
+		      <th>Status</th>
 		      <th>Actions</th>
 		    </tr>
 		  </thead>
@@ -25,14 +37,14 @@
 		      <td><a href="/companies/1">Group Buddies</a></td>
 		      <td><a href="#">gb.rasohr.com</a></td>
 		      <td>223234344</td>
-		      <td><span style="color:red;">Em atraso</span></td>
+		      <td><span style="color:red;">Delayed</span></td>
 		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
 		    </tr>
 		    <tr>
 		      <td><a href="/companies/1">Sonae</a></td>
 		      <td><a href="#">sonae.rasohr.com</a></td>
 		      <td>934776433</td>
-		      <td><span style="color:red;">Em atraso</span></td>
+		      <td><span style="color:red;">Delayed</span></td>
 		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
 		    </tr>
 		    <tr>
@@ -44,7 +56,19 @@
 		    </tr>
 		  </tbody>
 		</table>
+		<ul class="pagination">
+		  <li class="arrow unavailable"><a href="">&laquo;</a></li>
+		  <li class="current"><a href="">1</a></li>
+		  <li><a href="">2</a></li>
+		  <li><a href="">3</a></li>
+		  <li><a href="">4</a></li>
+		  <li class="unavailable"><a href="">&hellip;</a></li>
+		  <li><a href="">12</a></li>
+		  <li><a href="">13</a></li>
+		  <li class="arrow"><a href="">&raquo;</a></li>
+		</ul>
 	  </div>
+
 
 
 

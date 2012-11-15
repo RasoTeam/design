@@ -1,12 +1,23 @@
 <div class="row">
+	<div class="twelve columns">
+		<ul class="breadcrumbs">
+			<li><a href="#">Home</a></li>
+	  		<li><a href="#">Companies</a></li>
+	  		<li class="current"><a href="#">Sogrape</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="row">
+	
 	<!-- Right Column -->
-	<div class="nine columns push-three">
+	<div class="nine columns push-three details_company">
 		<div class="row">
 			<div class="twelve columns">
 				<!-- Header Content -->
 				<div class="row">
 					<div class="four columns">
-						<img src="http://placehold.it/350x200&text=Image"><br>
+						<%= image_tag ('logo_sogrape.jpg') %><br>
 					</div>
 		          	
 		          	<div class="eight columns">
@@ -14,10 +25,10 @@
 		            	<div class="panel details">
 		              		<h4 class="hide-for-small">Sogrape<hr/></h4>
 		            		<h5>Details</h5>
-			            	<p><span class="label">Company Name</span> Sogrape</p>
-			            	<p><span class="label">NIF</span> 123456789</p>
-			            	<p><span class="label">SLUG</span> sogrape.rasohr.com</p>
-			            	<p><span class="label">Employees</span> 143</p>
+			            	<p><span class="label radius">Company Name</span> Sogrape</p>
+			            	<p><span class="label radius">NIF</span> 123456789</p>
+			            	<p><span class="label radius">SLUG</span> sogrape.rasohr.com</p>
+			            	<p><span class="label radius">Employees</span> 143</p>
 		            	</div>
 					</div>
 		        </div>
@@ -31,7 +42,7 @@
 							      <th>Cod.</th>
 							      <th>Date</th>
 							      <th>Ammount</th>
-							      <th>Estado</th>
+							      <th>Status</th>
 							      <th>Actions</th>
 							    </tr>
 							  </thead>
@@ -40,29 +51,29 @@
 							      <td>COD2335</td>
 							      <td>2012/10/10</td>
 							      <td>129 €</td>
-							      <td><span style="color:red;">Em atraso</span></td>
-							      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
+							      <td><span style="color:red;">Delayed</span></td>
+							      <td><a href="#">Confirm Payment</a></td>
 							    </tr>
 							    <tr>
 							      <td>COD7835</td>
 							      <td>2012/09/10</td>
 							      <td>129 €</td>
 							      <td><span style="color:green;">Ok</span></td>
-							      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
+							      <td><a href="#">Un-Confirm Payment</a></td>
 							    </tr>
 							    <tr>
 							      <td>COD3835</td>
 							      <td>2012/09/10</td>
 							      <td>129 €</td>
 							      <td><span style="color:green;">Ok</span></td>
-							      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
+							      <td><a href="#">Un-Confirm Payment</a></td>
 							    </tr>
 							    <tr>
 							      <td>COD1835</td>
 							      <td>2012/09/10</td>
 							      <td>129 €</td>
 							      <td><span style="color:green;">Ok</span></td>
-							      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
+							      <td><a href="#">Un-Confirm Payment</a></td>
 							    </tr>
 							  </tbody>
 						</table>

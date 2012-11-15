@@ -6,6 +6,7 @@ Backoffice::Application.routes.draw do
   #   match 'products/:id' => 'catalog#view'
   match '/companies' => 'staticpages#index_company'
   match '/companies/1' => 'staticpages#show'
+  match '/invoices' => 'staticpages#index_invoices'
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
