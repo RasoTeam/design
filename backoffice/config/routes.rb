@@ -7,6 +7,7 @@ Backoffice::Application.routes.draw do
   match '/companies' => 'staticpages#index_company'
   match '/companies/1' => 'staticpages#show'
   match '/invoices' => 'staticpages#index_invoices'
+  match '/home' => 'staticpages#home'
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
@@ -52,7 +53,7 @@ Backoffice::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   # root :to => 'welcome#index'
-  root :to => 'staticpages#index_company'
+  root :to => 'staticpages#home'
 
   # See how all your routes lay out with "rake routes"
 
