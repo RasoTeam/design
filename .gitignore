@@ -20,3 +20,5 @@ doc/
 log/development.log
 
 .DS_Store
+
+*.log
