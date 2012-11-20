@@ -1,0 +1,2 @@
+module Signin::AdminHelper
+end
