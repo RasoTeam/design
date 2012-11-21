@@ -79,6 +79,8 @@ end
 namespace :rasoemp do
   match '/home', to: 'rasoemp#index'
   match '/jobs', to: 'rasoemp#jobs'
+  match '/edit', to: 'rasoemp#editdetailscol'
+  match '/jobdetails', to: 'rasoemp#job_details'
 end
 
 
