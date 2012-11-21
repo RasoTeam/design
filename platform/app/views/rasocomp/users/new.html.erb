@@ -1,0 +1,16 @@
+<%= form_for [@company, @user] do |f| %>
+  <% @user.errors.full_messages.each do |msg| %>
+    <p><%= msg %></p>
+  <% end %>
+
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :email %>
+  <%= f.email_field :email %>
+
+  <%= f.label :role %>
+  <%= f.select :role, ROLE %>
+
+  <%= f.submit %>
+<% end %>

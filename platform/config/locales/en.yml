@@ -1,0 +1,15 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  hello: "Hello world"
+  no_permission_to_access: "No permission to access (isto está no config/locales)"
+  invalid_login: "Wrong username or password! (config/locales)"
+  successful_update: "Successfully updted"
+  account_activated: "Your account has been successfuly activated"
+  invalid_verification: "Invalid Verification"
+
+  activerecord:
+    attributes:
+      user:
+        password_digest: "Password"

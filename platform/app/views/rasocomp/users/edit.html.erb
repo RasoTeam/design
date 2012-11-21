@@ -1,0 +1,23 @@
+<h1> Edit user for Company <%= params[:company_id] %> </h1>
+
+<%= form_for [@company, @user] do |f| %>
+  <% @user.errors.full_messages.each do |msg| %>
+    <p><%= msg %></p>
+  <% end %>
+
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+
+  <%= f.label :password %>
+  <%= f.password_field :password %>
+
+  <%= f.label :password_confirmation %>
+  <%= f.password_field :password_confirmation %>
+
+  <%= f.label :time_off_days %>
+  <%= f.text_field :time_off_days %>
+  
+  <%= f.submit %>
+<% end %>

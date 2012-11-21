@@ -1,0 +1,11 @@
+<h1>All SuperUsers</h1>
+
+<ul>
+  <% @super_users.each do |super_user| %>
+    <li>
+      <%= link_to super_user.name, super_user_path(super_user) %>, <%= super_user.email %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "Create a New Super User", new_super_user_path %>
