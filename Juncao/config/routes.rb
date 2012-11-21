@@ -69,6 +69,8 @@ end
 namespace :frontoffice do
   match '/home', to: 'frontoffice#index'
   match '/about', to: 'frontoffice#aboutus'
+  match '/idea', to: 'frontoffice#idea'
+  match '/contacts', to: 'frontoffice#contacts'
 
 end
 
