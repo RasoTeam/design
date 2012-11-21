@@ -45,5 +45,5 @@ Platform::Application.routes.draw do
     end
   end
 
-  get '/homefront' , :to => 'frontoffice/frontoffice#index'
+    get '/homefront' , :to => 'frontoffice/frontoffice#index'
 end
