@@ -56,7 +56,7 @@ Homepage::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'home#index'
+  root :to => 'frontoffice/frontoffice#index'
 
 namespace :signin do
   match '/signin', to: 'signin#index'
@@ -65,6 +65,13 @@ end
 namespace :backoffice do
   match '/backoffice', to: 'backoffice#home'
 end
+
+namespace :frontoffice do
+  match '/home', to: 'frontoffice#index'
+  match '/about', to: 'frontoffice#aboutus'
+
+end
+
 
   # See how all your routes lay out with "rake routes"
 
