@@ -1,149 +1,84 @@
 <div class="row">
-	<div class="twelve columns">
-		<ul class="breadcrumbs">
-			<li><a href="#">Home</a></li>
-	  		<li class="current"><a href="#">Companies</a></li>
-		</ul>
+
+	<!-- Left Column -->
+	<div>
+		<div class="row">
+			<div class="twelve columns">
+				<!-- Header Content -->
+				<div class="row">
+					<div class="four columns">
+						<%= image_tag ('logo_sogrape.jpg') %><br>
+					</div>
+		          	
+		          	<div class="eight columns">
+		            	<h3 class="show-for-small">Sogrape<hr/></h3>
+		            	<div class="panel details">
+		              		<h4 class="hide-for-small">Sogrape 
+		              			<span class="secondary label radius">Edit</span>
+		              			<hr/>
+		              		</h4>
+		            		<h5>Details</h5>
+			            	<p><span class="label radius">Company Name</span> Sogrape</p>
+			            	<p><span class="label radius">NIF</span> 123456789</p>
+			            	<p><span class="label radius">SLUG</span> <a href="#">sogrape</a></p>
+			            	<p><span class="label radius">Employees</span> 143</p>
+			            	<p><span class="label radius">Admin E-Mail</span> <a href="#">admin@sogrape.com</a></p>
+		            	</div>
+					</div>
+		        </div>
+		        <!-- End Header Content -->
+		    	<!-- Table Content -->
+				<div class="row">
+					<div class="twelve columns">
+					    <table class="twelve">
+							  <thead>
+							    <tr>
+							      <th>Cod.</th>
+							      <th>Date</th>
+							      <th>Ammount</th>
+							      <th>Status</th>
+							      <th>Payment</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <td>COD2335</td>
+							      <td>2012/10/10</td>
+							      <td>129 €</td>
+							      <td><span style="color:red;">Delayed</span></td>
+							      <td><a href="#">Pay</a></td>
+							    </tr>
+							    <tr>
+							      <td>COD7835</td>
+							      <td>2012/09/10</td>
+							      <td>129 €</td>
+							      <td><span style="color:green;">Ok</span></td>
+							      <td><a href="#">View Receipt</a></td>
+							    </tr>
+							    <tr>
+							      <td>COD3835</td>
+							      <td>2012/09/10</td>
+							      <td>129 €</td>
+							      <td><span style="color:green;">Ok</span></td>
+							      <td><a href="#">View Receipt</a></td>
+							    </tr>
+							    <tr>
+							      <td>COD1835</td>
+							      <td>2012/09/10</td>
+							      <td>129 €</td>
+							      <td><span style="color:green;">Ok</span></td>
+							      <td><a href="#">View Receipt</a></td>
+							    </tr>
+							  </tbody>
+						</table>
+						<!-- End Table Content -->
+					</div>
+		  		</div>
+			</div>
+		</div>
 	</div>
+
 </div>
-<!-- Main Grid Section -->
-
-<div class="row">
-	<div class="twelve columns">
-
-	<h2>Companies</h2>
-	
-	<div class="row">
-		<div class="four columns">
-			<dl class="tabs pill">
-  				<dd class="active"><a href="#pillTab1">A-Z</a></dd>
-  				<dd><a href="#pillTab2">Z-A</a></dd>
-			</dl>
-		</div>
-		<div class="four columns">
-			<dl class="sub-nav">
-		  		<dt>Filter:</dt>
-		  		<dd class="active"><a href="#">All</a></dd>
-		  		<dd><a href="#">Ok</a></dd>
-		  		<dd><a href="#">Delayed</a></dd>
-			</dl>
-		</div>
-		<div class="four columns">
-			<div class="row collapse">
-  			<div class="eight mobile-three columns">
-    			<input type="text" />
-  			</div>
-  			<div class="four mobile-one columns">
-    			<a class="button expand postfix">Search</a>
-  			</div>
-		</div>
-		</div>
-	</div>
-		<table class="twelve">
-		  <thead>
-		    <tr>
-		      <th>Name</th>
-		      <th>SLUG</th>
-		      <th>NIF</th>
-		      <th>Status</th>
-		      <th>Actions</th>
-		    </tr>
-		  </thead>
-		  <tbody>
-		    <tr>
-		      <td><a href="/companies/1">ABC</a></td>
-		      <td><a href="#">abc</a></td>
-		      <td>123456789</td>
-		      <td><span style="color:green;">Ok</span></td>
-		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
-		    </tr>
-		    <tr>
-		      <td><a href="/companies/1">Apple</a></td>
-		      <td><a href="#">apple</a></td>
-		      <td>223234344</td>
-		      <td><span style="color:red;">Delayed</span></td>
-		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
-		    </tr>
-		    <tr>
-		      <td><a href="/companies/1">BP</a></td>
-		      <td><a href="#">bp</a></td>
-		      <td>934776433</td>
-		      <td><span style="color:red;">Delayed</span></td>
-		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
-		    </tr>
-		    <tr>
-		      <td><a href="/companies/1">Banco Santander</a></td>
-		      <td><a href="#">bsantander</a></td>
-		      <td>428746183</td>
-		      <td><span style="color:green;">Ok</span></td>
-		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
-		    </tr>
-		    <tr>
-		      <td><a href="/companies/1">Citigroup</a></td>
-		      <td><a href="#">citi</a></td>
-		      <td>123456789</td>
-		      <td><span style="color:green;">Ok</span></td>
-		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
-		    </tr>
-		    <tr>
-		      <td><a href="/companies/1">Group Buddies</a></td>
-		      <td><a href="#">gb</a></td>
-		      <td>223234344</td>
-		      <td><span style="color:red;">Delayed</span></td>
-		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
-		    </tr>
-		    <tr>
-		      <td><a href="/companies/1">IBM</a></td>
-		      <td><a href="#">ibm</a></td>
-		      <td>934776433</td>
-		      <td><span style="color:red;">Delayed</span></td>
-		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
-		    </tr>
-		    <tr>
-		      <td><a href="/companies/1">Sogrape</a></td>
-		      <td><a href="#">sogrape</a></td>
-		      <td>428746183</td>
-		      <td><span style="color:green;">Ok</span></td>
-		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
-		    </tr>
-		    <tr>
-		      <td><a href="/companies/1">Sonae</a></td>
-		      <td><a href="#">sonae</a></td>
-		      <td>428746183</td>
-		      <td><span style="color:green;">Ok</span></td>
-		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
-		    </tr>
-		    <tr>
-		      <td><a href="/companies/1">Universidade do Minho</a></td>
-		      <td><a href="#">um</a></td>
-		      <td>428746183</td>
-		      <td><span style="color:green;">Ok</span></td>
-		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
-		    </tr>
-		    <tr>
-		      <td><a href="/companies/1">Vodafone</a></td>
-		      <td><a href="#">vodafone</a></td>
-		      <td>428746183</td>
-		      <td><span style="color:green;">Ok</span></td>
-		      <td><a href="#">Edit </a>|<a href="#"> Block </a>|<a href="#"> Remove </a></td>
-		    </tr>
-		  </tbody>
-		</table>
-		<ul class="pagination">
-		  <li class="arrow unavailable"><a href="">&laquo;</a></li>
-		  <li class="current"><a href="">1</a></li>
-		  <li><a href="">2</a></li>
-		  <li><a href="">3</a></li>
-		  <li><a href="">4</a></li>
-		  <li class="unavailable"><a href="">&hellip;</a></li>
-		  <li><a href="">12</a></li>
-		  <li><a href="">13</a></li>
-		  <li class="arrow"><a href="">&raquo;</a></li>
-		</ul>
-	</div>
-</div>
-
-
 
 
 
