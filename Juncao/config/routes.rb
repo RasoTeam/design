@@ -74,6 +74,10 @@ namespace :frontoffice do
 
 end
 
+namespace :rasoemp do
+  match '/home', to: 'rasoemp#index'
+end
+
 
   # See how all your routes lay out with "rake routes"
 

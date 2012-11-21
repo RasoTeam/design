@@ -1,0 +1,2 @@
+module Rasoemp::RasoempHelper
+end
