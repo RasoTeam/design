@@ -13,9 +13,9 @@ Homepage::Application.routes.draw do
   # Sample resource route (maps HTTP verbs to controller actions automatically):
 
 
-  resources :aboutus
-  resources :contacts
-  resources :ideas
+  #resources :aboutus
+  #resources :contacts
+  #resources :ideas
 
   match '/signup/' => 'staticpages#signup'
   match '/signup2/' => 'staticpages#signup_admin'
@@ -71,11 +71,14 @@ namespace :frontoffice do
   match '/about', to: 'frontoffice#aboutus'
   match '/idea', to: 'frontoffice#idea'
   match '/contacts', to: 'frontoffice#contacts'
-
 end
 
+#scope :module => "rasoemp" do
+#  match '/home', to: 'rasoemp#index'
+#end
 namespace :rasoemp do
   match '/home', to: 'rasoemp#index'
+  match '/jobs', to: 'rasoemp#jobs'
 end
 
 
