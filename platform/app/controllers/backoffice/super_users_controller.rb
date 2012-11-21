@@ -1,4 +1,4 @@
-class Backoffice::SuperUsersController < ApplicationController
+class Backoffice::SuperUsersController < Backoffice::ApplicationController
 	#before_filter :super_user_only, :only => [:index, :show, :new, :create, :home]
 	#before_filter :super_user_self, :only => [:edit, :update, :destroy]
 	

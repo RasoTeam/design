@@ -1,3 +1,3 @@
 class Backoffice::ApplicationController < ::ApplicationController
-  layout "application"
+  layout "backoffice"
 end
