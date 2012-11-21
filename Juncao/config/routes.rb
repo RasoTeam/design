@@ -89,6 +89,7 @@ end
 
 namespace :publicpages do
   match '/jobs', to: 'publicpages#jobs'
+  match '/apply', to: 'publicpages#apply_form'
 end
 
 
