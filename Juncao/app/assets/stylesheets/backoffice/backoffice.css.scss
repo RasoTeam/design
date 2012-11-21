@@ -1,3 +1,16 @@
 // Place all the styles related to the backoffice/backoffice controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.details
+{
+	p
+	{
+		line-height: 0.6;
+	}
+}
+
+.details_company
+{
+	border-left: 1px solid #DDD;
+}
