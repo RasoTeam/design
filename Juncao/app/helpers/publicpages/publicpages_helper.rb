@@ -1,0 +1,2 @@
+module Publicpages::PublicpagesHelper
+end

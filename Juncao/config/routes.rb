@@ -82,6 +82,11 @@ namespace :rasoemp do
   match '/edit', to: 'rasoemp#editdetailscol'
   match '/jobdetails', to: 'rasoemp#job_details'
   match '/employees', to: 'rasoemp#employees'
+  match '/publicjobs', to: 'rasoemp#public_jobs'
+end
+
+namespace :publicpages do
+  match '/jobs', to: 'publicpages#jobs'
 end
 
 
