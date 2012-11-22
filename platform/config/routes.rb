@@ -10,7 +10,7 @@ Platform::Application.routes.draw do
 
 #companies
   get '/companies/:company_id/users/verify', :to => 'rasocomp/users#verify'
-  get '/companies/:company_id/users/:id/dashboard', :to => 'rasocomp/users#dashboard'
+  get '/companies/:company_id/users/:id/dashboard', :to => 'rasocomp/users#dashboard', as: 'user_dashboard'
   
   match '/companies/:company_id/signin', to:'rasocomp/user_sessions#new', as: 'company_signin'
   match '/companies/:company_id/signout', to:'rasocomp/user_sessions#destroy', as: 'company_signout'

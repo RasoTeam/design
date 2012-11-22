@@ -64,6 +64,7 @@ end
 
 namespace :backoffice do
   match '/backoffice', to: 'backoffice#home'
+  match '/show', to: 'backoffice#show'
 end
 
 namespace :frontoffice do

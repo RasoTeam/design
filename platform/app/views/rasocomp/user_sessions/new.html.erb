@@ -17,21 +17,17 @@
       <h5>Welcome to Raso</h5>
       <p>This is you company login page</p>
 		<hr />		
-		<form>
-		    <%= form_for(:user_session, url: company_user_sessions_path) do |f| %>
-				<%= f.label :email %>
-				<%= f.text_field :email, :required => true %>
+			<%= form_for(:user_session, url: company_user_sessions_path) do |f| %>
+			  
+			  <%= f.label :email %>
+			  <%= f.text_field :email, :required => true %>
 
-				<%= f.label :password %>
-				<%= f.password_field :password, :required => true %>
+			  <%= f.label :password %>
+			  <%= f.password_field :password, :required => true %>
 
-				<hr />
-				<%= f.submit "Sign In" %>
+			  <p style="text-align: center"><%= f.submit 'Sign In', :class => "button" %></p>
 
 			<% end %>
-
-		    <p style="text-align: center"><a class="button" href="/backoffice/backoffice">Login!</a></p>
-		</form>
     </div>
 </div>
 
@@ -40,4 +36,3 @@
 
 
 
-<h1> User Login </h1>
