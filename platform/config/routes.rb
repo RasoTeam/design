@@ -49,4 +49,5 @@ Platform::Application.routes.draw do
     get '/aboutus' , :to => 'frontoffice/frontoffice#aboutus'
     get '/idea' , :to => 'frontoffice/frontoffice#idea'
     get '/contacts' , :to => 'frontoffice/frontoffice#contacts'
+    get '/signup', :to => 'frontoffice/frontoffice#signup'
 end
