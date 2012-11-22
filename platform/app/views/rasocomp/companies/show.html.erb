@@ -1,95 +1,4 @@
-<div class="row">
-
-	<!-- Left Column -->
-	<div>
-		<div class="row">
-			<div class="twelve columns">
-				<!-- Header Content -->
-				<div class="row">
-					<div class="four columns">
-						<%= image_tag ('logo_sogrape.jpg') %><br>
-					</div>
-		          	
-		          	<div class="eight columns">
-		            	<h3 class="show-for-small"><%= @company.name %><hr/></h3>
-		            	<div class="panel details">
-		              		<h4 class="hide-for-small"><%= @company.name %> 
-		              			<span class="secondary label radius"><a href="/editcomp">Edit</a></span>
-		              			<hr/>
-		              		</h4>
-		            		<h5>Details</h5>
-			            	<p><span class="label radius">Company Name</span> <%= @company.name %></p>
-			            	<p><span class="label radius">NIF</span> <%= @company.nif %></p>
-			            	<p><span class="label radius">SLUG</span> <a href="#"><%= @company.tag+".rasohr.com" %></a></p>
-			            	<p><span class="label radius">Employees</span> <%= @company.users.length-1 %></p>
-			            	<p><span class="label radius">Admin E-Mail</span> <a href="#">admin@sogrape.com</a></p>
-		            	</div>
-					</div>
-		        </div>
-		        <!-- End Header Content -->
-		    	<!-- Table Content -->
-				<div class="row">
-					<div class="twelve columns">
-					    <table class="twelve">
-							  <thead>
-							    <tr>
-									<th>Cod</th>
-									<th>Issued Date</th>
-									<th>Payment Date</th>
-									<th>Ammount</th>
-									<th>State</th>
-									<th>Actions</th>
-							    </tr>
-							  </thead>
-							  <tbody>
-							    <tr>
-							      <td>COD2335</td>
-							      <td>2012/10/10</td>
-							      <td>129 €</td>
-							      <td><span style="color:red;">Delayed</span></td>
-							      <td><a href="#">Pay</a></td>
-							    </tr>
-							    <tr>
-							      <td>COD7835</td>
-							      <td>2012/09/10</td>
-							      <td>129 €</td>
-							      <td><span style="color:green;">Ok</span></td>
-							      <td><a href="#">View Receipt</a></td>
-							    </tr>
-							    <tr>
-							      <td>COD3835</td>
-							      <td>2012/09/10</td>
-							      <td>129 €</td>
-							      <td><span style="color:green;">Ok</span></td>
-							      <td><a href="#">View Receipt</a></td>
-							    </tr>
-							    <tr>
-							      <td>COD1835</td>
-							      <td>2012/09/10</td>
-							      <td>129 €</td>
-							      <td><span style="color:green;">Ok</span></td>
-							      <td><a href="#">View Receipt</a></td>
-							    </tr>
-							  </tbody>
-						</table>
-						<!-- End Table Content -->
-					</div>
-		  		</div>
-			</div>
-		</div>
-	</div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
+<h1><%= @company.name %></h1>
 <% if !user_signed_in? @company.tag %>
 	<%= link_to "Sign In on Company", company_signin_path(params[:id]) %>
 	<br/>
@@ -104,7 +13,12 @@
 <br>
 <br>
 <% end %>
+<label>Details</label>
 
+<p>Company Name <%= @company.name %></p>
+<p>Nif <%= @company.nif %></p>
+<p>Slug <%= @company.tag+".rasohr.com" %></p>
+<p>Employees <%= @company.users.length-1 %></p>
 
 <table>
 	<tbody>

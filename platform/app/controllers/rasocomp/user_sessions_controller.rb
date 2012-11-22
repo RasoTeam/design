@@ -1,4 +1,5 @@
 class Rasocomp::UserSessionsController < Rasocomp::ApplicationController
+  layout "nolayout"
   def new
   end
 
