@@ -122,11 +122,22 @@ ul.nav_raso
     		border-radius: 5px;  
 		}
 	}
+}
 
+ul#helper_menu
+{
 	li:hover, li:active, li:visited
 	{
 		// Reset da propriedade da framework (trazia uma cor por defeito)
 		background-color: transparent;
+	}
+
+	li
+	{
+		a:hover, a.selected
+		{
+			color: white;
+		}
 	}
 }
 

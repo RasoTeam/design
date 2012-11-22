@@ -20,9 +20,9 @@ Platform::Application.routes.draw do
 #static_pages
   match '/dashboard', :to => 'rasocomp/dashboard#start'
   
-  match '/aboutus' => 'staticpages#aboutus'
-  match '/ideas' => 'staticpages#ideas'
-  match '/contacts' => 'staticpages#contacts'
+  #match '/aboutus' => 'staticpages#aboutus'
+  #match '/ideas' => 'staticpages#ideas'
+  #match '/contacts' => 'staticpages#contacts'
 
   #root :to => 'rasocomp/dashboard#start'
   root :to => 'frontoffice/frontoffice#index'
@@ -46,4 +46,7 @@ Platform::Application.routes.draw do
   end
 
     get '/homefront' , :to => 'frontoffice/frontoffice#index'
+    get '/aboutus' , :to => 'frontoffice/frontoffice#aboutus'
+    get '/idea' , :to => 'frontoffice/frontoffice#idea'
+    get '/contacts' , :to => 'frontoffice/frontoffice#contacts'
 end
